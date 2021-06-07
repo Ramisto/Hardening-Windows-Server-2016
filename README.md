@@ -17,7 +17,7 @@ First of all, I invite you to look at the summary table, and advise you to creat
 
 First step, download the project folder to your C:\ drive.
 
-Second step, import the .reg file (line 249) :
+Second step, import the .reg file :
 
 [ Win + R ] regedit
 
@@ -37,7 +37,7 @@ LGPO.exe /g C:\GpoTemplate\
 gpupdate /force
 ```
 
-Fourth step, check the NTFS permissions on the "Eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path (line 242).
+Fourth step, check the NTFS permissions on the "Eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
 
 
 ## Finally

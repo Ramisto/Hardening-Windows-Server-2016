@@ -39,7 +39,7 @@ LGPO.exe /g C:\GpoTemplate\
 gpupdate /force
 ```
 
-Fourth step, check the NTFS permissions on the "Eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
+Fourth step, check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
 
 
 And to finish, restart your server.

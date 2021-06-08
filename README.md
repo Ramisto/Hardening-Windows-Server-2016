@@ -22,7 +22,7 @@ Second step, import the .reg files :
 
 [ Win + R ] regedit
 
-And select "File > Import > C:\CIS-DISA-Windows-Server-2016\Reg\*.reg"
+And select "File > Import > C:\CIS-DISA-Windows-Server-2016\Reg\xxxx.reg"
 
 
 Third step, import the local group policy template, and apply it :

@@ -15,7 +15,7 @@ First of all, I invite you to look at the summary table, and advise you to creat
 
 ## Installation
 
-First step, download the project folder to your C:\ drive.
+First step, download this github project to your C:\ drive.
 
 
 Second step, import the .reg files :

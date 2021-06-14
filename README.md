@@ -22,7 +22,11 @@ First of all, I invite you to look at the summary table, and advise you to creat
 
 Go to the "Reg" folder, then double click on the "All.reg" file.
 
-3) Open the cmd console in the project folder, import the local group policy template, and apply it :
+3) Open the powershell console with administrator privileges, then run the script ".\V-70639.ps1", and restart your server.
+
+4) Check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
+
+5) Open the cmd console in the project folder, import the local group policy template, and apply it :
 
 Win + cmd > Run as administrator
 
@@ -35,10 +39,8 @@ LGPO.exe /g .\Backup\
 ```
 gpupdate /force
 ```
-4) Open the ISE application with administrator privileges, then run the script "V-70639.ps1", and restart your server.
 
-5) Check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
-
+Restart our server, and log in with the administrator account "admin1x8rtm".
 
 
 ## Finally

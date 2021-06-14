@@ -38,6 +38,9 @@ cd C:\CIS-DISA-Windows-Server-2016\
 gpupdate /force
 ```
 ```
+gpresult /R
+```
+```
 Restart-Computer
 ```
 

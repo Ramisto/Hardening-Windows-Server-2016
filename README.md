@@ -37,8 +37,11 @@ cd C:\CIS-DISA-Windows-Server-2016\
 ```
 gpupdate /force
 ```
+```
+Restart-Computer
+```
 
-Restart our server, and log in with the administrator account "admin1x8rtm".
+Log in the session with the administrator account "admin1x8rtm".
 
 
 ## Finally

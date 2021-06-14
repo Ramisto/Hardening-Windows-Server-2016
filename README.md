@@ -15,10 +15,10 @@ First of all, I invite you to look at the summary table, and advise you to creat
 
 ## Installation
 
-First step, download the project folder to your C:\ drive.
+1) Download the project folder to your C:\ drive.
 
 
-Second step, import the .reg files :
+2) Import the .reg files :
 
 [ Win + R ] regedit
 
@@ -27,7 +27,7 @@ And select "File > Import > C:\CIS-DISA-Windows-Server-2016\Reg\RestrictRemoteSA
            "File > Import > C:\CIS-DISA-Windows-Server-2016\Reg\Sehop.reg"
 
 
-Third step, import the local group policy template, and apply it :
+3) Open the cmd console in the project folder, import the local group policy template, and apply it :
 
 [ Win + R ] cmd
 
@@ -41,10 +41,17 @@ LGPO.exe /g C:\GpoTemplate\
 gpupdate /force
 ```
 
-Fourth step, check the NTFS permissions on the "Eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
+4) Open the powershell console with administrator privileges, then run the script "V-70639.ps1", and restart your server :
 
+```
+cd .\Powershell
+```
+```
+.\V-70639.ps1
+```
 
-And to finish, restart your server.
+5) check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
+
 
 
 ## Finally

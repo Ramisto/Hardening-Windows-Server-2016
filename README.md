@@ -32,7 +32,7 @@ Go to the "Reg" folder, then double click on the "All.reg" file.
 cd C:\CIS-DISA-Windows-Server-2016\
 ```
 ```
-LGPO.exe /g .\Backup\
+.\LGPO.exe /g .\Backup\
 ```
 ```
 gpupdate /force

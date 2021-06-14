@@ -7,6 +7,7 @@ The components of this project are adapted to a Windows Server 2016 operating sy
 Here is the set of components:
 - A "Reg" directory containing the register entries
 - A "GpoTemplate" directory containing the local group policy template
+- A "Powershell" folder
 - A "Summary.ds" table summarizing the settings
 - A "LGPO.exe" utility
 

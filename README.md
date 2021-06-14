@@ -29,14 +29,15 @@ Go to the "Reg" folder, then double click on the "All.reg" file.
 cd C:\CIS-DISA-Windows-Server-2016\
 ```
 ```
-LGPO.exe /g .\GpoTemplate\
+LGPO.exe /m ".\GpoTemplate\{3EC1E592-CE4A-4540-87ED-785E53FA735F}\DomainSysvol\GPO\Machine\registry.pol"
+LGPO.exe /u ".\GpoTemplate\{3EC1E592-CE4A-4540-87ED-785E53FA735F}\DomainSysvol\GPO\User\registry.pol"
 ```
 ```
 gpupdate /force
 ```
 4) Open the ISE application with administrator privileges, then run the script "V-70639.ps1", and restart your server.
 
-5) check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
+5) Check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
 
 
 

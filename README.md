@@ -15,19 +15,11 @@ First of all, I invite you to look at the summary table, and advise you to creat
 
 ## Installation
 
-<<<<<<< HEAD
 1) Download the project folder to your C:\ drive.
-=======
-First step, download this github project to your C:\ drive.
->>>>>>> 7106a0a16a985339c36d45dfa60e1c823c9fdb26
-
 
 2) Import the .reg files :
 
-[ Win + R ] regedit
-
-And select "File > Import > C:\CIS-DISA-Windows-Server-2016\Reg\xxxx.reg"
-
+Go to the "Reg" folder, then double click on the "All.reg" file.
 
 3) Open the cmd console in the project folder, import the local group policy template, and apply it :
 
@@ -42,19 +34,7 @@ LGPO.exe /g .\GpoTemplate\
 ```
 gpupdate /force
 ```
-
-<<<<<<< HEAD
-4) Open the powershell console with administrator privileges, then run the script "V-70639.ps1", and restart your server :
-=======
-Fourth step, check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
->>>>>>> 7106a0a16a985339c36d45dfa60e1c823c9fdb26
-
-```
-cd .\Powershell
-```
-```
-.\V-70639.ps1
-```
+4) Open the ISE applisation with administrator privileges, then run the script "V-70639.ps1", and restart your server :
 
 5) check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
 

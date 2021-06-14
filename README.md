@@ -30,7 +30,7 @@ Win + cmd > Run as administrator
 cd C:\CIS-DISA-Windows-Server-2016\
 ```
 ```
-LGPO.exe /g ".\Backup\
+LGPO.exe /g .\Backup\
 ```
 ```
 gpupdate /force

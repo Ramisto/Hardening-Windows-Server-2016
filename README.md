@@ -6,7 +6,7 @@ The components of this project are adapted to a Windows Server 2016 operating sy
 
 Here is the set of components:
 - A "Reg" directory containing the register entries
-- A "GpoTemplate" directory containing the local group policy template
+- A "Backup" directory containing the local group policy template
 - A "Powershell" folder
 - A "Summary.ds" table summarizing the settings
 - A "LGPO.exe" utility
@@ -30,8 +30,7 @@ Go to the "Reg" folder, then double click on the "All.reg" file.
 cd C:\CIS-DISA-Windows-Server-2016\
 ```
 ```
-LGPO.exe /m ".\GpoTemplate\{3EC1E592-CE4A-4540-87ED-785E53FA735F}\DomainSysvol\GPO\Machine\registry.pol"
-LGPO.exe /u ".\GpoTemplate\{3EC1E592-CE4A-4540-87ED-785E53FA735F}\DomainSysvol\GPO\User\registry.pol"
+LGPO.exe /g ".\Backup\
 ```
 ```
 gpupdate /force

@@ -34,7 +34,7 @@ LGPO.exe /g .\GpoTemplate\
 ```
 gpupdate /force
 ```
-4) Open the ISE applisation with administrator privileges, then run the script "V-70639.ps1", and restart your server :
+4) Open the ISE application with administrator privileges, then run the script "V-70639.ps1", and restart your server :
 
 5) check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
 

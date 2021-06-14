@@ -24,7 +24,7 @@ Go to the "Reg" folder, then double click on the "All.reg" file.
 
 3) Open the cmd console in the project folder, import the local group policy template, and apply it :
 
-[ Win + R ] cmd
+Win + cmd > Run as administrator
 
 ```
 cd C:\CIS-DISA-Windows-Server-2016\

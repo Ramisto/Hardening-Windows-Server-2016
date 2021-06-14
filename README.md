@@ -26,7 +26,7 @@ Go to the "Reg" folder, then double click on the "All.reg" file.
 
 4) Check the NTFS permissions on the "eventvwr.exe" application in the %SystemRoot%\SYSTEM32 path.
 
-5) Open the cmd console in the project folder, import the local group policy template, and apply it :
+5) Open the powershell console in the project folder, import the local group policy template, and apply it :
 
 Win + cmd > Run as administrator
 

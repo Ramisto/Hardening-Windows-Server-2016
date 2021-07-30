@@ -5,11 +5,11 @@ This project was created to facilitate the implementation of security criteria b
 The components of this project are adapted to a Windows Server 2016 operating system that is not present in any Active Directory domain.
 
 Here is the set of components:
-- A "Reg" directory containing the register entries
-- A "Backup" directory containing the local group policy template
-- A "Powershell" folder
-- A "Summary.ds" table summarizing the settings
-- A "LGPO.exe" utility
+- "Reg" directory containing the register entries
+- "Backup" directory containing the local group policy template
+- "Powershell" folder
+- "Summary.ds" table summarizing the settings
+- "LGPO.exe" utility
 
 First of all, I invite you to look at the summary table, and advise you to create a backup of your system before starting anything! You could restore your system in case of problems.
 

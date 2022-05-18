@@ -1,4 +1,4 @@
-# CIS-DISA-Windows-Server-2016
+# Hardening-Windows-Server-2016
 
 This project was created to facilitate the implementation of security criteria based on CIS and DISA.
 

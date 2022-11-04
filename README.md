@@ -14,7 +14,7 @@ Here is the set of components:
 First of all, I invite you to look at the summary table, and advise you to create a backup of your system before starting anything! You could restore your system in case of problems.
 
 
-## Installation
+## Usage
 
 1) Download the project folder to your C:\ drive.
 

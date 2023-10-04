@@ -45,8 +45,3 @@ Restart-Computer
 ```
 
 Log in the session with the administrator account "admin1x8rtm".
-
-
-## Finally
-
-I am aware that this project is not perfect, so don't hesitate to suggest improvements!
